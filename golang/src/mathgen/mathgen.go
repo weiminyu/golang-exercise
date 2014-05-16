@@ -45,7 +45,7 @@ func makeOne(rand *rand.Rand, bound int) *Problem {
 		op = ADD
 	}
 
-	if op == ADD && f+s > bound && s > 1 {
+	if op == ADD && f+s > bound && s > 8 {
 		s = s >> 1
 	}
 	if op == SUBTRACT && f < s {
