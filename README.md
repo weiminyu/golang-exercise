@@ -1,3 +1,2 @@
-Beginner's toy exercises using the GO language.
-
+My toy projects. Not limited to golang.
 
